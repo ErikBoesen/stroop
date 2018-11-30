@@ -20,3 +20,16 @@ while (target.childElementCount < NUM_WORDS) {
 
     target.appendChild(word);
 }
+
+document.getElementById('fullscreen').onclick = function() {
+    const html = document.documentElement;
+    if (html.requestFullscreen) {
+        html.requestFullscreen();
+    } else if (html.mozRequestFullScreen) {
+        html.mozRequestFullScreen();
+    } else if (html.webkitRequestFullscreen) {
+        html.webkitRequestFullscreen();
+    } else if (html.msRequestFullscreen) {
+        html.msRequestFullscreen();
+    }
+};
