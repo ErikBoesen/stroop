@@ -1,3 +1,8 @@
+:-webkit-full-screen button#fullscreen { display: none; }
+:-moz-full-screen button#fullscreen    { display: none; }
+:-ms-fullscreen button#fullscreen      { display: none; }
+:fullscreen button#fullscreen          { display: none; }
+
 #target {
 }
 #target span {
