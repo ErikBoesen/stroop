@@ -1,5 +1,10 @@
+@font-face {
+    font-family: 'Libre Franklin';
+    font-weight: normal;
+    src: url(librefranklin-regular.ttf) format(truetype);
+}
 body {
-    font-family: 'Helvetica';
+    font-family: 'Libre Franklin';
     font-weight: 100;
     padding: 10px;
 }
