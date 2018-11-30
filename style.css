@@ -1,0 +1,15 @@
+#target {
+}
+#target span {
+
+}
+#target span::after {
+    content: ' ';
+}
+
+#target span.red { color: red; }
+#target span.orange { color: orange; }
+#target span.yellow { color: yellow; }
+#target span.green { color: green; }
+#target span.blue { color: blue; }
+#target span.purple { color: purple; }
